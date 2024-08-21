@@ -11,18 +11,13 @@
 
 body {
     background-image: url('./img/trabalho.png');
-    background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a área visível */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Garante que a imagem não se repita */
+    background-size: cover; 
+    background-repeat: no-repeat; 
 }
 
 
 
-.posicao{
-    margin: 70px;   
-    margin-top: 120px;
-    margin-left: 20px;
-}
+
 
 .conteiner{
     max-width: 1080px;
@@ -68,3 +63,19 @@ header{
     font-size: 20px ;
 }
 
+.fundo{
+    background-color: aquamarine;
+    padding: 10px;
+    margin-right: 1080px;
+    margin-left: 200px;
+    
+    
+    
+
+}
+
+
+.borda{
+    margin: 10px;
+    padding: 30px;
+}

@@ -9,10 +9,11 @@
 }
 
 
-body{
-    background-image: url(../img/trabalho.png);
-    
-
+body {
+    background-image: url('./img/trabalho.png');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir toda a área visível */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Garante que a imagem não se repita */
 }
 
 

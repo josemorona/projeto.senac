@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+
+body {
+    background-image: url('./img/trabalho.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+form{
+    background-color: #ffff;
+    max-width: 500px;
+    height: 450px;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+form h1{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(95, 110, 139);
+}
+
+form p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.input-single{
+    position: relative;
+    margin: 20px 0;
+
+}
+
+.input-single label{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+}
+
+.input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+}
+
+
+
+.conteiner{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header{
+    background-color:#ffff;
+    width: 100%;
+    padding: 10px;
+
+}
+.social,.logo{
+    width: 25%;
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu nav a{
+    color: #000;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 16px;
+
+}
+
+.logo img{
+    width: 110px;
+    
+}
+
+.social button{
+    width: 40px;
+    right: 40px;
+}
+
+.social button i{
+    font-size: 20px ;
+}
+
+.fundo{
+    background-color: aquamarine;
+    padding: 10px;
+    margin-right: 1080px;
+    margin-left: 200px;
+    
+    
+    
+
+}
+
+
+.borda{
+    margin: 10px;
+    padding: 30px;
+}

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+
+body {
+    background-image: url('./img/trabalho.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.conteiner{
+    max-width: 1280px;
+    margin: o auto;
+
+}
+
+
+form{
+    background-color: #ffff;
+    max-width: 500px;
+    height: 600px;
+    padding: 50px;
+    border-radius: 25px;
+    margin-top: 120px;
+    margin-left: 200px;
+
+}
+
+form h1{
+    text-align: center;
+    
+    font-size: 30px;
+    color:rgb(95, 110, 139)
+
+}
+form p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.input-single{
+    position: relative;
+    margin: 45px 0;
+}
+
+.input-single label{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: all 0.2s;
+    cursor: text;
+}
+
+.input{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+    font-size: 17px;
+    outline: 0;
+}
+
+form .input-single .input:focus ~ label,
+form .input-single .input:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: rgb(95, 110, 139);
+}
+
+.btn{
+    width: 100%;
+    text-align:  center;
+}
+
+form input[type=submit]{
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color:rgb(95, 110, 139) ;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.conteiner{
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+header{
+    background-color:#ffff;
+    width: 100%;
+    padding: 10px;
+
+}
+.social,.logo{
+    width: 25%;
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu nav a{
+    color: #000;
+    text-decoration: none;
+    padding-right: 60px;
+    font-size: 16px;
+    position: relative;
+}
+
+
+.logo img{
+    width: 110px;
+    cursor: pointer;
+}
+
+.social button{
+    width: 40px;
+    right: 40px;
+    padding: 3px;
+    background-image: linear-gradient(45deg,#4fa8db, #1266d4);
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social button i{
+    font-size: 20px ;
+    color: #000;
+}
+
+.fundo{
+    background-color: aquamarine;
+    padding: 10px;
+    margin-right: 1080px;
+    margin-left: 200px;
+}
+
+.borda{
+    margin: 10px;
+    padding: 30px;
+}

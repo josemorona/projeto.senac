@@ -26,6 +26,7 @@ form {
   border-radius: 25px;
   margin-top: 120px;
   margin-left: 200px;
+  margin-bottom: 10%;
 }
 
 form h1 {
@@ -162,4 +163,34 @@ nav a::after {
 
 nav a:hover::after {
   width: 70%;
+}
+
+footer img {
+  width: 12%;
+  padding: 80px;
+}
+
+footer {
+  height: 15vh;
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer h3 {
+  text-align: top;
+  margin-left: 50px;
+  padding: 20px;
+}
+footer p1 {
+  padding-left: 10px;
+  margin-left: 30px;
+}
+
+footer p2 {
+  margin-left: 30px;
+  padding-left: 10px;
 }
